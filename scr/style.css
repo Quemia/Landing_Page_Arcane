@@ -51,7 +51,6 @@ body {
 }
 
 .b-button__two {
-  /* display: flex; */
   width: 155px;
   height: 54px;
   padding: 16px 32px;
@@ -75,7 +74,6 @@ body {
 }
 
 .t-button__one {
-  /* display: flex; */
   width: 142px;
   height: 50px;
   padding: 14px 32px;
@@ -92,4 +90,19 @@ body {
   @media (max-width: 375px) {
     width: 324px;
   }
+}
+
+.title-page {
+  color: #fff;
+  font: normal 800 128px/156.03px "Open Sans", "sans-serif";
+  text-transform: uppercase;
+}
+
+.title-page-outline {
+  color: #fff;
+  font: normal 800 128px/130.03px "Open Sans", "sans-serif";
+  text-transform: uppercase;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px;
 }
