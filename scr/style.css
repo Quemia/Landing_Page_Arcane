@@ -96,13 +96,29 @@ body {
   color: #fff;
   font: normal 800 128px/156.03px "Open Sans", "sans-serif";
   text-transform: uppercase;
+
+  @media (max-width: 768px) {
+    font: normal 800 96px/117.02px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 375px) {
+    font: normal 800 64px/78.03px "Open Sans", "sans-serif";
+  }
 }
 
 .title-page-outline {
   color: #fff;
-  font: normal 800 128px/130.03px "Open Sans", "sans-serif";
+  font: normal 800 128px/156.03px "Open Sans", "sans-serif";
   text-transform: uppercase;
 
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px;
+
+  @media (max-width: 768px) {
+    font: normal 800 96px/117.02px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 375px) {
+    font: normal 800 64px/78.03px "Open Sans", "sans-serif";
+  }
 }
