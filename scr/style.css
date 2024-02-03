@@ -22,12 +22,34 @@ body {
   top: 0;
   left: 0;
 }
-
 @media screen and (max-width: 1024px) {
   img.bg {
     left: 50%;
     margin-left: -512px;
   }
+}
+
+.div-header {
+  width: 100%;
+  height: 40px;
+  display: flex;
+
+  margin: 30px 52px;
+}
+
+.div-button-two {
+  display: flex;
+}
+.div-button-header {
+}
+
+.div-button-hamburg {
+  margin-right: 778px;
+}
+
+.hamburguer {
+  width: 52px;
+  height: 52px;
 }
 
 .b-button {
@@ -44,14 +66,15 @@ body {
 
 .b-button__one {
   /* display: flex; */
-  width: 190px;
-  height: 50px;
+  width: auto;
+  height: 54px;
   padding: 14px 32px;
   gap: 10px;
 }
 
 .b-button__two {
-  width: 155px;
+  width: auto;
+  height: 54px;
   height: 54px;
   padding: 16px 32px;
   gap: 10px;
@@ -82,9 +105,9 @@ body {
 
 .t-button__two {
   display: flex;
-  width: 263px;
-  height: 54px;
-  padding: 16px 32px;
+  /* width: 263px;
+  height: 54px; */
+  padding: 14px 32px;
   gap: 10px;
 
   @media (max-width: 375px) {
@@ -94,11 +117,11 @@ body {
 
 .title-page {
   color: #fff;
-  font: normal 800 128px/156.03px "Open Sans", "sans-serif";
+  font: normal 800 128px/80px "Open Sans", "sans-serif";
   text-transform: uppercase;
 
   @media (max-width: 768px) {
-    font: normal 800 96px/117.02px "Open Sans", "sans-serif";
+    font: normal 800 96px/96px "Open Sans", "sans-serif";
   }
 
   @media (max-width: 375px) {
@@ -108,14 +131,14 @@ body {
 
 .title-page-outline {
   color: #fff;
-  font: normal 800 128px/156.03px "Open Sans", "sans-serif";
+  font: normal 800 128px/80px "Open Sans", "sans-serif";
   text-transform: uppercase;
 
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px;
 
   @media (max-width: 768px) {
-    font: normal 800 96px/117.02px "Open Sans", "sans-serif";
+    font: normal 800 96px/96px "Open Sans", "sans-serif";
   }
 
   @media (max-width: 375px) {
@@ -136,4 +159,17 @@ body {
   color: #fff;
   font: normal 500 34px/29.26px "Montserrat", "sans-serif";
   text-transform: uppercase;
+}
+
+.div-central-content {
+  display: flex;
+  margin: 5px auto;
+}
+
+.div-central {
+  display: block;
+}
+
+.div-trailers {
+  display: block;
 }
