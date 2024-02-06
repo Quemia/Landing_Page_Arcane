@@ -37,16 +37,29 @@ body {
   display: flex;
 
   margin: 30px 52px;
+
+  @media (max-width: 770px) {
+    margin: 25px 32px;
+  }
 }
 
 .div-button-two {
   display: flex;
-}
-.div-button-header {
+
+  @media (max-width: 770px) {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .div-button-hamburg {
-  margin-right: 778px;
+  margin-right: 650px;
+  margin-left: 100px;
+
+  @media (max-width: 770px) {
+    margin-right: 260px;
+    margin-left: 0;
+  }
 }
 
 .hamburguer {
@@ -64,10 +77,10 @@ body {
   letter-spacing: 1px;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .b-button__one {
-  /* display: flex; */
   width: auto;
   height: 45px;
   padding: 14px 32px;
@@ -81,6 +94,11 @@ body {
   padding: 16px 32px;
   gap: 10px;
   margin-right: 40px;
+
+  @media (max-width: 770px) {
+    width: 244px;
+    height: 54px;
+  }
 
   @media (max-width: 375px) {
     width: 327px;
@@ -97,6 +115,7 @@ body {
   letter-spacing: 1px;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .t-button__one {
@@ -113,6 +132,11 @@ body {
   padding: 12px 32px;
   gap: 10px;
 
+  @media (max-width: 770px) {
+    padding: 12px 20px;
+    height: 54px;
+  }
+
   @media (max-width: 375px) {
     width: 324px;
   }
@@ -123,8 +147,8 @@ body {
   font: normal 800 128px/80px "Open Sans", "sans-serif";
   text-transform: uppercase;
 
-  @media (max-width: 768px) {
-    font: normal 800 96px/96px "Open Sans", "sans-serif";
+  @media (max-width: 770px) {
+    font: normal 800 96px/80px "Open Sans", "sans-serif";
   }
 
   @media (max-width: 375px) {
@@ -141,7 +165,7 @@ body {
   -webkit-text-stroke: 2px;
 
   @media (max-width: 768px) {
-    font: normal 800 96px/90px "Open Sans", "sans-serif";
+    font: normal 800 96px/80px "Open Sans", "sans-serif";
   }
 
   @media (max-width: 375px) {
@@ -159,27 +183,58 @@ body {
 
   margin-right: 40px;
   cursor: pointer;
+
+  @media (max-width: 770px) {
+    font: normal 500 14px/17.07px "Montserrat", "sans-serif";
+  }
+}
+
+.text-social-media-bold {
+  font-weight: 600;
+
+  @media (max-width: 770px) {
+    margin-right: 320px;
+  }
 }
 
 .text-trailers {
   color: #fff;
   font: normal 500 34px/29.26px "Montserrat", "sans-serif";
   text-transform: uppercase;
+
+  @media (max-width: 770px) {
+    text-align: left;
+  }
 }
 
 .div-central-content {
   display: flex;
   margin: 5px auto;
   justify-content: space-around;
+
+  @media (max-width: 770px) {
+    display: block;
+    margin: 112px 32px 80px 32px;
+    width: 68%;
+    text-align: center;
+  }
 }
 
 .div-central {
   display: block;
+
+  @media (max-width: 770px) {
+    margin-right: 0 32px;
+  }
 }
 
 .div-trailers {
   display: block;
   margin-top: 48px;
+
+  @media (max-width: 770px) {
+    margin-top: 80px;
+  }
 }
 
 .div-social-media {
@@ -187,13 +242,38 @@ body {
   margin-top: 56px;
   margin-left: 150px;
   margin-bottom: 20px;
+
+  @media (max-width: 770px) {
+    width: 80%;
+    margin-left: 24px;
+    margin-top: 112px;
+    justify-content: flex-start;
+  }
 }
 
 .img-trailer {
   width: 280px;
   height: 144px;
+
+  @media (max-width: 770px) {
+    width: 336px;
+    height: 144px;
+  }
 }
 
 .first-img-trailer {
   margin-bottom: 32px;
+
+  @media (max-width: 770px) {
+    margin-right: 32px;
+    margin-bottom: 0;
+  }
+}
+
+.images-trailer {
+  display: block;
+
+  @media (max-width: 770px) {
+    display: flex;
+  }
 }
