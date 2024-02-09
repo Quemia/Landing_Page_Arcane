@@ -53,6 +53,18 @@ body {
   @media (max-width: 912px) {
     margin: 25px 32px;
   }
+
+  @media (max-width: 540px) {
+    width: 50%;
+  }
+
+  @media (max-width: 420px) {
+    width: 100%;
+  }
+
+  @media (max-width: 280px) {
+    margin: 25px 10px;
+  }
 }
 
 .div-button-hamburg {
@@ -80,13 +92,28 @@ body {
   }
 
   @media (max-width: 540px) {
-    margin-right: 160px;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: -30px;
+  }
+
+  @media (max-width: 490px) {
+    margin-right: 200px;
+    margin-left: -130px;
+  }
+
+  @media (max-width: 290px) {
+    margin-right: 500px;
+    margin-left: -20px;
+    justify-content: left;
   }
 }
 
 .div-button-header {
   margin-right: 20px;
+
+  @media (max-width: 280px) {
+    display: flex;
+  }
 }
 
 .hamburguer {
@@ -110,6 +137,11 @@ body {
   text-align: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 280px) {
+    font: normal 600 14px/21px "Montserrat", "sans-serif";
+    letter-spacing: 0px;
+  }
 }
 
 .b-button__one {
@@ -138,13 +170,24 @@ body {
     height: 54px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     width: 327px;
     margin-bottom: 24px;
+    margin-left: 60px;
+  }
+
+  @media (max-width: 420px) {
+    width: 324px;
+    margin-left: 0;
   }
 
   @media (max-width: 360px) {
     width: 300px;
+  }
+
+  @media (max-width: 290px) {
+    width: 200px;
+    height: 48px;
   }
 }
 
@@ -159,6 +202,11 @@ body {
   text-align: center;
   justify-content: center;
   cursor: pointer;
+
+  @media (max-width: 280px) {
+    font: normal 600 14px/21px "Montserrat", "sans-serif";
+    letter-spacing: 0px;
+  }
 }
 
 .t-button__one {
@@ -186,12 +234,23 @@ body {
     height: 54px;
   }
 
+  @media (max-width: 540px) {
+    width: 327px;
+    margin-left: 60px;
+  }
+
   @media (max-width: 420px) {
     width: 324px;
+    margin-left: 0;
   }
 
   @media (max-width: 360px) {
     width: 300px;
+  }
+
+  @media (max-width: 290px) {
+    width: 200px;
+    height: 65px;
   }
 }
 
@@ -206,6 +265,10 @@ body {
 
   @media (max-width: 420px) {
     font: normal 800 64px/78.03px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 280px) {
+    font: normal 800 54px/40px "Open Sans", "sans-serif";
   }
 }
 
@@ -224,6 +287,10 @@ body {
   @media (max-width: 420px) {
     font: normal 800 64px/78.03px "Open Sans", "sans-serif";
   }
+
+  @media (max-width: 280px) {
+    font: normal 800 54px/40px "Open Sans", "sans-serif";
+  }
 }
 
 .text-trailers {
@@ -235,7 +302,7 @@ body {
     text-align: left;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     width: 0;
     color: transparent;
   }
@@ -253,12 +320,20 @@ body {
     text-align: center;
   }
 
+  @media (max-width: 540px) {
+    margin: 112px 32px 80px 40px;
+  }
+
   @media (max-width: 420px) {
     display: block;
   }
 
   @media (max-width: 390px) {
     margin: 112px 32px 80px 25px;
+  }
+
+  @media (max-width: 280px) {
+    margin: 112px 32px 80px 5px;
   }
 }
 
@@ -274,6 +349,23 @@ body {
   @media (max-width: 912px) {
     margin-right: 0 32px;
   }
+
+  @media (max-width: 540px) {
+    margin-right: 0 10px;
+    width: 60%;
+    text-align: right;
+  }
+
+  @media (max-width: 420px) {
+    width: 45%;
+    margin-right: 0 24px;
+    text-align: center;
+  }
+
+  @media (max-width: 280px) {
+    margin-right: 0 22px;
+    width: 40%;
+  }
 }
 
 .div-button-two {
@@ -281,11 +373,17 @@ body {
 
   @media (max-width: 912px) {
     align-items: center;
+    align-items: center;
     justify-content: center;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     display: block;
+  }
+
+  @media (max-width: 280px) {
+    width: 40%;
+    margin: 15px 40px;
   }
 }
 
@@ -298,7 +396,7 @@ body {
     margin-top: 80px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     margin-top: 0;
     width: 0;
     height: 0;
@@ -314,7 +412,7 @@ body {
     height: 144px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     width: 0;
     height: 0;
   }
@@ -358,7 +456,7 @@ body {
     justify-content: flex-start;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 540px) {
     margin-top: -46px;
     margin-left: 5px;
   }
@@ -370,6 +468,12 @@ body {
 
   @media (max-width: 360px) {
     margin-left: -10px;
+  }
+
+  @media (max-width: 280px) {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 5px;
   }
 }
 
@@ -396,6 +500,11 @@ body {
   @media (max-width: 390px) {
     margin-left: 25px;
   }
+
+  @media (max-width: 280px) {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
 }
 
 .text-social-media-bold {
@@ -406,9 +515,22 @@ body {
     color: #fff;
   }
 
+  @media (max-width: 540px) {
+    margin-left: 20px;
+    margin-right: 120px;
+  }
+
   @media (max-width: 420px) {
     margin-left: -70px !important;
     color: transparent !important;
     margin: 0;
+  }
+
+  @media (max-width: 280px) {
+    display: block;
+  }
+
+  @media (max-width: 280px) {
+    margin-right: 10px;
   }
 }
