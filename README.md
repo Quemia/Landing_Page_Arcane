@@ -16,9 +16,9 @@ The first step is to download the repository in your machine with git or in zip 
 ```shell
   $ git init
 
-  $ git clone 
+  $ git clone git@github.com:Quemia/Landing_Page_Arcane.git
 
-  $ cd 
+  $ cd Landing_Page_Arcane
 ```
 
 ### Done with :bulb:
