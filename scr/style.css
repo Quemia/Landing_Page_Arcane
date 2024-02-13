@@ -31,7 +31,6 @@ body {
   @media (max-width: 420px) {
     width: 100%;
     height: auto;
-    /* position: relative; */
   }
 }
 
@@ -120,7 +119,6 @@ body {
 
 .div-button-header {
   margin-right: 20px;
-
   @media (max-width: 667px) {
     margin-right: -800px;
   }
