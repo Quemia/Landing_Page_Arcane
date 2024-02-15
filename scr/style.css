@@ -41,7 +41,7 @@ body {
   }
 }
 
-.div-header {
+.header {
   width: 100%;
   height: 40px;
   display: flex;
@@ -49,8 +49,22 @@ body {
   margin: 30px 52px;
   justify-content: space-around;
 
-  @media (max-width: 912px) {
+  @media (max-width: 915px) {
+    width: 95%;
     margin: 25px 32px;
+  }
+
+  @media (max-width: 912px) {
+    width: 100%;
+    margin: 25px 32px;
+  }
+
+  @media (max-width: 896px) {
+    width: 90%;
+  }
+
+  @media (max-width: 740px) {
+    width: 70%;
   }
 
   @media (max-width: 667px) {
@@ -71,7 +85,7 @@ body {
   }
 }
 
-.div-button-hamburg {
+.button-hamburg {
   margin-right: 350px;
   margin-left: -50px;
 
@@ -85,6 +99,10 @@ body {
     margin-left: -150px;
   }
 
+  @media (max-width: 896px) {
+    margin-left: -100px;
+  }
+
   @media (max-width: 820px) {
     margin-right: -250px;
     margin-left: -250px;
@@ -92,12 +110,16 @@ body {
 
   @media (max-width: 768px) {
     margin-right: -250px;
-    margin-left: -300px;
+    margin-left: -250px;
+  }
+
+  @media (max-width: 740px) {
+    margin-right: 200px;
+    margin-left: -10px;
   }
 
   @media (max-width: 667px) {
     margin-right: 800px;
-    margin-left: -10px;
   }
 
   @media (max-width: 540px) {
@@ -117,7 +139,7 @@ body {
   }
 }
 
-.div-button-header {
+.button-header {
   margin-right: 20px;
   @media (max-width: 667px) {
     margin-right: -800px;
@@ -284,8 +306,16 @@ body {
     font: normal 800 96px/80px "Open Sans", "sans-serif";
   }
 
-  @media (max-width: 667px) {
-    font: normal 800 70px/50px "Open Sans", "sans-serif";
+  @media (max-width: 915px) {
+    font-size: 80px;
+  }
+
+  @media (max-width: 896px) {
+    font: normal 800 80px/50px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 740px) {
+    font-size: 70px;
   }
 
   @media (max-width: 420px) {
@@ -305,11 +335,23 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px;
 
+  @media (max-width: 912px) {
+    font: normal 800 96px/80px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 915px) {
+    font-size: 80px;
+  }
+
+  @media (max-width: 896px) {
+    font: normal 800 80px/50px "Open Sans", "sans-serif";
+  }
+
   @media (max-width: 768px) {
     font: normal 800 96px/80px "Open Sans", "sans-serif";
   }
 
-  @media (max-width: 667px) {
+  @media (max-width: 740px) {
     font: normal 800 70px/50px "Open Sans", "sans-serif";
   }
 
@@ -337,16 +379,29 @@ body {
   }
 }
 
-.div-central-content {
+.central-content {
   display: flex;
   margin: 5px auto;
   justify-content: space-around;
 
+  @media (max-width: 915px) {
+    display: block;
+    margin-left: 32px;
+  }
+
   @media (max-width: 912px) {
     display: block;
-    margin: 112px 32px 80px 32px;
+    margin: 100px 32px 80px 32px;
     width: 68%;
     text-align: center;
+  }
+
+  @media (max-width: 896px) {
+    margin: 90px 32px 80px 32px;
+  }
+
+  @media (max-width: 740px) {
+    margin: 70px 32px 80px 40px;
   }
 
   @media (max-width: 667px) {
@@ -373,20 +428,19 @@ body {
 .div-central {
   display: block;
 
-  @media (max-width: 420px) {
-    width: 45%;
-    margin-right: 0 24px;
-    text-align: center;
+  @media (max-width: 912px) {
+    margin-right: 32px;
   }
 
-  @media (max-width: 912px) {
-    margin-right: 0 32px;
+  @media (max-width: 896px) {
+    width: 80%;
+    margin: 0 20px;
+    text-align: left;
   }
 
   @media (max-width: 667px) {
     width: 60%;
-    margin-right: 0 10px;
-    text-align: left;
+    margin: 0 10px;
   }
 
   @media (max-width: 540px) {
@@ -408,14 +462,24 @@ body {
 .div-button-two {
   display: flex;
 
+  @media (max-width: 915px) {
+    margin-top: 200px;
+  }
+
   @media (max-width: 912px) {
     align-items: center;
     align-items: center;
     justify-content: center;
+    margin-top: 0;
+  }
+
+  @media (max-width: 896px) {
+    margin-top: 200px;
   }
 
   @media (max-width: 540px) {
     display: block;
+    margin-top: 0;
   }
 
   @media (max-width: 280px) {
@@ -472,7 +536,7 @@ body {
   }
 }
 
-.div-social-media {
+.social-media {
   width: 100%;
   margin-left: 40%;
   margin-top: 112px;
@@ -486,11 +550,24 @@ body {
     justify-content: flex-start;
   }
 
+  @media (max-width: 915px) {
+    margin-top: -650px;
+    margin-left: 24px;
+  }
+
   @media (max-width: 912px) {
     width: 80%;
     margin-left: 24px;
     margin-top: 112px;
     justify-content: flex-start;
+  }
+
+  @media (max-width: 896px) {
+    margin-top: -570px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 0;
   }
 
   @media (max-width: 667px) {
@@ -555,7 +632,6 @@ body {
     margin-right: 320px;
     color: #fff;
   }
-
 
   @media (max-width: 667px) {
     margin-right: 250px;
