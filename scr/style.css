@@ -69,7 +69,7 @@ body {
 
   @media (max-width: 667px) {
     width: 50%;
-    margin: 25px 12px !important;
+    margin: 25px 12px;
   }
 
   @media (max-width: 540px) {
