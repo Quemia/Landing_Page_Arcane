@@ -695,10 +695,10 @@ body {
 .text-social-media-bold {
   font-weight: 600;
 
-  @media (width >= 1400px) {
-    margin-right: 40%;
+  @media (max-width >= 1400px) {
+    /* margin-right: 40%; */
+    margin-right: 320px;
   }
-
 
   @media (max-width: 912px) {
     margin-right: 320px;
