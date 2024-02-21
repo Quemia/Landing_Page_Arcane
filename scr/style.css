@@ -705,8 +705,17 @@ body {
     color: #fff;
   }
 
-  @media (max-width: 667px) {
+  @media (max-width: 720px) {
     margin-right: 250px;
+  }
+
+  @media (max-width: 667px) {
+    margin-right: 200px;
+  }
+
+  @media (max-width: 590px) {
+    margin-left: 20px;
+    margin-right: 130px;
   }
 
   @media (max-width: 540px) {
@@ -714,7 +723,7 @@ body {
     margin-right: 120px;
   }
 
-  @media (max-width: 490px) {
+  @media (max-width: 499px) {
     margin-left: 30px;
     margin-right: 50px;
   }
