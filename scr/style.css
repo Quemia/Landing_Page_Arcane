@@ -612,7 +612,6 @@ body {
   @media (max-width: 490px) {
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
   }
 
   @media (max-width: 350px) {
@@ -696,7 +695,6 @@ body {
   font-weight: 600;
 
   @media (max-width >= 1400px) {
-    /* margin-right: 40%; */
     margin-right: 320px;
   }
 
