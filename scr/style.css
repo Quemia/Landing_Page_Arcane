@@ -385,6 +385,10 @@ body {
   @media (max-width: 490px) {
     font: normal 500 15px/20px "Montserrat", "sans-serif";
   }
+
+  @media (max-width: 490px) {
+    margin-left: 8%;
+  }
 }
 
 .central-content {
@@ -545,6 +549,7 @@ body {
   }
 
   @media (max-width: 350px) {
+    margin-left: 8%;
     text-align: left;
   }
 }
