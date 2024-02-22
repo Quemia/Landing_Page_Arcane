@@ -675,7 +675,15 @@ body {
 
   @media (max-width: 350px) {
     display: flex;
-    margin-left: 0px;
+    margin-left: 4%;
+  }
+
+  @media (max-width: 315px) {
+    margin-left: 2%;
+  }
+
+  @media (max-width: 285px) {
+    margin-left: 0;
   }
 }
 
