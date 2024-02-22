@@ -454,8 +454,8 @@ body {
     width: 55%;
   }
 
-  @media (max-width: 350px) {
-    width: 60%;
+  @media (max-width: 330px) {
+    width: 50%;
   }
 
   @media (max-width: 280px) {
@@ -491,9 +491,18 @@ body {
   }
 
   @media (max-width: 350px) {
-    width: 40%;
+    width: 55%;
     margin-top: 50px;
-    margin-left: 40px;
+  }
+
+  @media (max-width: 330px) {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  @media (max-width: 280px) {
+    width: 70%;
+    margin-top: 50px;
   }
 }
 
