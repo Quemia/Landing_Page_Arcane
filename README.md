@@ -2,7 +2,7 @@
 
 ## Getting Started :rocket:
 
-https://landing-page-arcane.vercel.app/
+Project deployment :point_right: **[Arcane](https://landing-page-arcane.vercel.app/)**
 
 ![Screenshot_20240222_220817-1](https://github.com/Quemia/Landing_Page_Arcane/assets/55935949/c943280d-549c-4888-b46a-7908458f0b8c)
 
