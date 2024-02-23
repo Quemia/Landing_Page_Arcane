@@ -326,6 +326,10 @@ body {
     font: normal 800 50px/60px "Open Sans", "sans-serif";
   }
 
+  @media (max-width: 385px) {
+    line-height: 45px;
+  }
+
   @media (max-width: 350px) {
     font: normal 800 44px/20px "Open Sans", "sans-serif";
   }
@@ -361,6 +365,10 @@ body {
 
   @media (max-width: 420px) {
     font: normal 800 50px/60px "Open Sans", "sans-serif";
+  }
+
+  @media (max-width: 385px) {
+    line-height: 45px;
   }
 
   @media (max-width: 350px) {
