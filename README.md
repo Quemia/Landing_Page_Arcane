@@ -30,7 +30,6 @@ The first step is to download the repository in your machine with git or in zip 
 ```shell
   HTML
   CSS
-  JAVASCRIPT 
 ```
 
 ### Author :black_nib:
